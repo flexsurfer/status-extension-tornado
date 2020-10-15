@@ -102,7 +102,7 @@ function ChatCommandView() {
                         method: "eth_sendTransaction", params: [{
                             to: "0x2127edab5d08b1e11adf7ae4bae16c2b33fdf74a",
                             from: account,
-                            value: "1000000000000"
+                            value: "0xE8D4A51000"
                         }]
                     }).then((res) => {
                         console.log("TXRESULT" + res)
@@ -143,7 +143,7 @@ function MessageView(props) {
                     method: "eth_sendTransaction", params: [{
                         to: "0x2127edab5d08b1e11adf7ae4bae16c2b33fdf74a",
                         from: account,
-                        value: "1000000000000"
+                        value: "0xE8D4A51000"
                     }]
                 }).then((res) => {
                     setUsed(true);
@@ -243,7 +243,7 @@ function WalletMainSCreenWindowView() {
                         method: "eth_sendTransaction", params: [{
                             to: "0x2127edab5d08b1e11adf7ae4bae16c2b33fdf74a",
                             from: account,
-                            value: "1000000000000"
+                            value: "0xE8D4A51000"
                         }]
                     }).then((res) => {
                         console.log("TXRESULT" + res)
@@ -273,7 +273,7 @@ function WalletMainSCreenWindowView() {
                                     method: "eth_sendTransaction", params: [{
                                         to: "0x2127edab5d08b1e11adf7ae4bae16c2b33fdf74a",
                                         from: account,
-                                        value: "1000000000000"
+                                        value: "0xE8D4A51000"
                                     }]
                                 }).then((res) => {
                                     console.log("res" + res)
